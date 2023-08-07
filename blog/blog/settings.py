@@ -32,6 +32,8 @@ INSTALLED_APPS = [
     'blog_api',
     'blog_api.category',
     'blog_api.blog_post',
+    'blog_api.comment',
+
 ]
 
 MIDDLEWARE = [

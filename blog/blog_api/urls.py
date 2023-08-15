@@ -8,4 +8,5 @@ urlpatterns = [
 	path('category/', include('blog_api.category.urls')),
 	path('blog_post/', include('blog_api.blog_post.urls')),
 	path('comment/', include('blog_api.comment.urls')),
+	path('user/', include('blog_api.user.urls')),
 ]
